@@ -1,0 +1,91 @@
+body{
+    background-image: url("../images/pipes.png");
+    font-family: serif;
+}
+.header{
+    background-color: #71eeb8;
+    text-align: center;
+    padding-top: 10px;
+    width: 50%;
+    height: 60px;
+    
+    border: 2px black solid;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+
+
+#content{
+    background-color: #e3dac9;
+    width: 50%;
+    
+    font-size: 20px;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+   
+}
+#random{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e3dac9;
+    width: 30%;
+    border: 2px black solid;
+    border-radius: 5px;
+    float: left;
+    opacity: 0.8;
+}
+#winLoss{
+    
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    height : 99px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: #e3dac9;
+    opacity: 0.8;
+    width: 19%;
+    
+}
+#buttons{
+    border: 2px black solid;
+    border-radius: 5px;
+    overflow:auto;
+    clear: both;
+    margin-top: 10px;
+    background-color: #e3dac9;
+    width: 50%;
+    padding: 10px;
+    float: left;
+   
+}
+button{
+    margin: 0px 35px 0px 35px;
+    background: transparent;
+    border: none;
+}
+.gem{
+   
+    width: 50px;
+    height: 50px;
+    
+}
+#score{
+    float: left;
+    background-color: #e3dac9;
+    margin : 10px 0px 0px 10px;
+    border: 2px black solid;
+    border-radius: 5px;
+    height: 65px;
+    width: 15%;
+    padding: 5px;
+}

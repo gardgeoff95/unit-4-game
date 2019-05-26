@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src ="assets/javascript/jQuery.js"></script>
+    <script src="assets/javascript/game.js"></script>
+    <link rel = "stylesheet" type = "text/css" href= "assets/css/style.css"
+</head>
+<body>
+    <h1 class= "header">Crystal Collector!</h1>
+    <div id = "content">
+        <p>
+            You will be given a random number at the start of the game.
+        </p>
+
+        <p>There are four cyrstals below. By clicking on the crystals you will add a specific amount to your total score
+        </p>
+
+        <p>
+            To win the game make your score equal to the random number generated!
+        </p>
+    </div>
+    <div id= "random">
+        <h1>0</h1>
+
+    </div>
+    <div id="winLoss">
+        <p>
+            Wins: <span id = "wins"></span>
+        </p>
+        <p>
+            Losses: <span id ="losses"></span>
+        </p>
+    </div>
+    <div id = "buttons">
+        <button><img id="blueGem" class="gem" src="assets/images/blue-gem.png"></button>
+        <button><img id="greenGem" class="gem" src="assets/images/green-gem.png"></button>
+        <button><img id="purpGem" class="gem" src="assets/images/purple-gem.png"></button>
+        <button id ="redGem"><img  class="gem" src="assets/images/red-gem.png"></button>
+
+    </div>
+    <div id = "score">
+        <p>Current Score: <span id="currentScore" >0</span></p>
+
+    </div>
+</body>
+</html>
