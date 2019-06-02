@@ -66,24 +66,45 @@ p{
     width: 50%;
     padding: 10px;
     float: left;
+    z-index: 5000;
+    
    
+}
+#numbers{
+    border: 2px black solid;
+    border-radius: 5px;
+    overflow:auto;
+    clear: both;
+    margin-top: 10px;
+    background-color: #e3dac9;
+    width: 50%;
+    height:100px;
+    padding: 10px;
+    float: left;
+    z-index: 5000;
+    
+   
+}
+.number{
+    float: left;
+    margin-left: 65px;
+    margin-right: 50px;   
+    font-size: 40px;
 }
 button{
     margin: 0px 35px 0px 35px;
     background: transparent;
     border: none;
+    
 
     
 }
-#blueText{
-    margin-bottom: 20px;
-    font-size: 30px;
-    
+
+.number{
+    visibility: hidden;
 }
-#blueGem{
-    
-    display: none;
-}
+
+
 .gem{
    
     width: 50px;
